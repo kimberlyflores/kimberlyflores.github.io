@@ -23,8 +23,9 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
           Semestre de primavera <date from="2016-01-20" to="2016-05-14">2016</date></p>
       </publicationStmt>
       <sourceDesc>
-        <p>Los materiales perteneces a <name xml:id="JGR">Juanita Guzmán Ramos</name> ...
-          Las cartas fueron colectadas por Juanita Guzmán Ramos durante su noviasgo con Gabriel Flores Serrano entre los años 1970 y 1973.</p>
+        <p>Los materiales perteneces a <name xml:id="JGR">Juanita Guzmán Ramos</name> ... Las cartas
+          fueron colectadas por Juanita Guzmán Ramos durante su noviasgo con Gabriel Flores Serrano
+          entre los años 1970 y 1973.</p>
       </sourceDesc>
     </fileDesc>
 
@@ -76,11 +77,15 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <div type="envelope">
           <pb n="1" facs="img/01ENV1.jpeg"/>
           <pb n="2" facs="img/01ENV2.jpeg"/>
-          <div type="recto">Maria E. Flores <pb/>2509 So. Hamlin Ave <pb/>Chicago Ill. 60623 </div>
-          <div type="verso"> Srita <choice>
-              <orig>Juananita</orig>
-              <reg>Juanita</reg>
-            </choice> Guzmán R. <pb/>A lista de Correo <pb/>Puente Grande Jal. <pb/>-Mexico- </div>
+          <div type="recto">
+            <p>Maria E. Flores <lb/>2509 So. Hamlin Ave <lb/>Chicago Ill. 60623 </p>
+          </div>
+          <div type="verso">
+            <p>Srita <choice>
+                <orig>Juananita</orig>
+                <reg>Juanita</reg>
+              </choice> Guzmán R. <lb/>A lista de Correo <lb/>Puente Grande Jal. <lb/>-Mexico- </p>
+          </div>
         </div>
 
         <div type="texto">
@@ -100,37 +105,38 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
           </opener>
 
           <p>Estimada y querida amiga con mucho gusto doy contestación a tu carta donde me dices que
-            estás bien nosotros asta ahorita bien gracias a Dios.</p>
-          <p>Juananita: de lo que me dices de Goel que lo biste pues que bueno olle y no te as dado
-            cuenta si tiene novia?</p>
-          <p>Ahy Joel tan chulito verdad? Cuentame mas a serca de el okey.</p>
-          <p>y de lo que me dices de Daniel y el Gato pues que bueno que ya binieron del viaje pero
-            yo creo se ban a volver a ir Lencho con el Gato, bueno yo creo dime a ver si Lencho de
-            ba de viaje. y de lo que me dices de las peliculas de Pili y Mili oye y como se llamo
-            esa pelicula a lo mejor ya la vi. yo ya bi sor ye-ye-berdad que esta muy bonita! y que
-            guapo se beia Enrique Guzmán y de lo que me dices pues ya no te bayas a quedar otro dia
-            que bayas al cine si no ya no te dejan porque como dices la tercera es la vencida
-            verdad</p>
+            estás bien nosotros asta ahorita bien gracias a Dios.<lb/> Juananita: de lo que me dices
+            de Goel que lo biste pues que bueno olle y no te as dado cuenta si tiene novia?<lb/> Ahy
+            Joel tan chulito verdad? Cuentame mas a serca de el okey.<lb/> y de lo que me dices de
+            Daniel y el Gato pues que bueno que ya binieron del viaje pero yo creo se ban a volver a
+            ir Lencho con el Gato, bueno yo creo dime a ver si Lencho de ba de viaje. y de lo que me
+            dices de las peliculas de Pili y Mili oye y como se llamo esa pelicula a lo mejor ya la
+            vi. yo ya bi sor ye-ye-berdad que esta muy bonita! y que guapo se beia Enrique Guzmán y
+            de lo que me dices pues ya no te bayas a quedar otro dia que bayas al cine si no ya no
+            te dejan porque como dices la tercera es la vencida verdad<lb/></p>
           <pb/>
           <p>Pues nosotros bamos a tener 1 prueba de cada libro como dentro de 1 semana pero fijate
             que ya me dieron las pruebas para ber si paso y ya las isimos todos pero no nos an dado
             el resultado asta en Junio no lo ban a dar pero ya pasamos ese miedo que teniamos y
-            suerte con tus pruebas en la escuela.</p>
-          <p>Mira de eso que dices de las novelas pues si quieres calale y me mandas en cada carta 1
-            hoja okey.</p>
-          <p>Oye de lo que me dices de Celia y Ramo. no que se fueron al ranchito y por que se ban
-            que no los gusta Puente preguntales si los bes y dile que me contesten okey. y Celia no
-            me hablo por lo que me dices, pues ahy sera otro dia verdad. Oye y el Aguate si me hablo
-            por telefono este jueves iso 8 dias y platicamos, pero muy poco ya bes que por telefono
-            no se puede hablar mucho. y la le escrebi despues te mando decir si me contesta y lo que
-            me manda decir, y cuentame de el Gato y de el Aguate y de Joel, si</p>
-          <div type="marginLeft">no es molestia para ti tu que los puedes ber porque yo ni
-            esperansas ya bes y dile a Lilia que me conteste. Bueno cuentame todo lo que tengas de
-            nuevo yo fui al cine a ber una Pelicula de Capulina se llamo el "Songano" bien bonita y
-            otra con Jorge Rivero no me acuerdo del nombre pero estubo bien</div>
-          <div type="marginTop">linda tan bien, y en la escuela pues me ba a todo dar. Perdona la
-            letra. Saludame a todos y a mi guerito chulito dale un beso de mi parte y un abraso
-            saludos a tu mamá. Contestame tan luego puedas.</div>
+            suerte con tus pruebas en la escuela.<lb/> Mira de eso que dices de las novelas pues si
+            quieres calale y me mandas en cada carta 1 hoja okey.<lb/> Oye de lo que me dices de
+            Celia y Ramo. no que se fueron al ranchito y por que se ban que no los gusta Puente
+            preguntales si los bes y dile que me contesten okey. y Celia no me hablo por lo que me
+            dices, pues ahy sera otro dia verdad. Oye y el Aguate si me hablo por telefono este
+            jueves iso 8 dias y platicamos, pero muy poco ya bes que por telefono no se puede hablar
+            mucho. y la le escrebi despues te mando decir si me contesta y lo que me manda decir, y
+            cuentame de el Gato y de el Aguate y de Joel, si<lb/></p>
+          <div type="marginLeft">
+            <p>no es molestia para ti tu que los puedes ber porque yo ni esperansas ya bes y dile a
+              Lilia que me conteste. Bueno cuentame todo lo que tengas de nuevo yo fui al cine a ber
+              una Pelicula de Capulina se llamo el "Songano" bien bonita y otra con Jorge Rivero no
+              me acuerdo del nombre pero estubo bien</p>
+          </div>
+          <div type="marginTop">
+            <p>linda tan bien, y en la escuela pues me ba a todo dar. Perdona la letra. Saludame a
+              todos y a mi guerito chulito dale un beso de mi parte y un abraso saludos a tu mamá.
+              Contestame tan luego puedas.</p>
+          </div>
           <!-- La despedida: -->
           <closer>
             <signed corresp="MEF">tu amiga Maria E. Flores</signed>
@@ -166,9 +172,13 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <div type="envelope">
           <pb n="5" facs="img/02ENV1.jpeg"/>
           <pb n="6" facs="img/02ENV2.jpeg"/>
-          <div type="recto">Rt. G.F.S.<pb/>2509 So. HAMLIN AVE. <pb/>CHICAGO, Ill. 60623 </div>
-          <div type="verso"> SRITA. <pb/> JUANITA GUZMAN R. <pb/>A LISTA DE CORREO. <pb/>PUENTE
-            GRANDE JAL.<pb/>----MEXICO-------.</div>
+          <div type="recto">
+            <p>Rt. G.F.S.<pb/>2509 So. HAMLIN AVE. <pb/>CHICAGO, Ill. 60623 </p>
+          </div>
+          <div type="verso">
+            <p>SRITA.<pb/> JUANITA GUZMAN R. <pb/>A LISTA DE CORREO. <pb/>PUENTE GRANDE
+              JAL.<pb/>----MEXICO-------.</p>
+          </div>
         </div>
 
         <div type="texto">
@@ -196,23 +206,24 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
             pase la navidad aqui o algo asi. bueno eso me dijo nena que tu le vias mandado desir.
             bueno eso de la escuela esierto que me corrieron pero ese mismo dia que me corrieron fue
             Chela a sacarme de la escuela porque Chela iba entrar ala escuela y ella queria que yo
-            tambien fuera con ella pero yo no tardo en salirme de la escuela en esa que boy y me
-            meto en la que me corrieron mira ahorita no me justa esa porque ahy muchos negro y son
-            bien malos mira a mi no me escribe Ismael porque no tiene direción y no tampoco tengo su
-            direción dile a Luis que el tuvo la culpa de la carta que le mande el porque no fue a
-            bersi tenia carta bueno tu Juanita como te gustaria que te ponga en las cartas Juana o
-            Juanita yo beo que me mandas en las cartas no mas asi Juana que nombre te gusta para que
-            te ponga en las cartas. de las cartas me llegaron Igual la tuya y la de Carmen Igual.
-            mira yo toda via no ago pruebas y toda via nose con que boy pando misa yo el otro dia
-            compre una maquina de aser cigarros y los cigarros que yo ago sellaman (Laredo) los
-            cigarros bueno ya termino resiban saludos saludame a tu mamá y todos y para ti Resibe un
-            abraso de mi parte se despide tu novio que no te olvida que berte deseo mejor que
-            escribirte contestame pronto</p>
+            tambien fuera con ella pero yo no tardo en salirme de la escuela en esa</p>
+          <pb/>
+          <p>que boy y me meto en la que me corrieron mira ahorita no me justa esa porque ahy muchos
+            negro y son bien malos mira a mi no me escribe Ismael porque no tiene direción y no
+            tampoco tengo su direción dile a Luis que el tuvo la culpa de la carta que le mande el
+            porque no fue a bersi tenia carta bueno tu Juanita como te gustaria que te ponga en las
+            cartas Juana o Juanita yo beo que me mandas en las cartas no mas asi Juana que nombre te
+            gusta para que te ponga en las cartas. de las cartas me llegaron Igual la tuya y la de
+            Carmen Igual. mira yo toda via no ago pruebas y toda via nose con que boy pando misa yo
+            el otro dia compre una maquina de aser cigarros y los cigarros que yo ago sellaman
+            (Laredo) los cigarros bueno ya termino resiban saludos saludame a tu mamá y todos y para
+            ti Resibe un abraso de mi parte se despide tu novio que no te olvida que berte deseo
+            mejor que escribirte contestame pronto</p>
 
           <!-- La despedida: -->
           <closer>
-            <signed corresp="GFS">tu novio que no te olvida Gabriel Flores S <pb/>te acuerda de
-              esto<pb/>ay-ya-yai me muero Juanita<pb/>espero la contestación</signed>
+            <signed corresp="GFS">tu novio que no te olvida Gabriel Flores S <lb/>te acuerda de
+              esto<lb/>ay-ya-yai me muero Juanita<lb/>espero la contestación</signed>
             <dateline><!-- si hay --></dateline>
           </closer>
         </div>
@@ -244,10 +255,13 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <div type="envelope">
           <pb n="9" facs="img/03ENV1.jpeg"/>
           <pb n="10" facs="img/03ENV2.jpeg"/>
-          <div type="recto">Maria E. Flores S.<pb/>2509 So. Hamlin Ave <pb/>Chicago Illinois<pb/>
-            60623 </div>
-          <div type="verso"> Srita: Juanita Guzmán R. <pb/>a lista de Correo.<pb/>Puente Grande Jal.
-            <pb/>-Mexico- </div>
+          <div type="recto">
+            <p>Maria E. Flores S.<lb/>2509 So. Hamlin Ave <lb/>Chicago Illinois<lb/> 60623</p>
+          </div>
+          <div type="verso">
+            <p>Srita: Juanita Guzmán R. <lb/>a lista de Correo.<lb/>Puente Grande Jal.
+              <lb/>-Mexico-</p>
+          </div>
         </div>
 
         <div type="texto">
@@ -299,9 +313,13 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <div type="envelope">
           <pb n="13" facs="img/04ENV1.jpeg"/>
           <pb n="14" facs="img/04ENV2.jpeg"/>
-          <div type="recto">G.F.S <pb/>2509 So. Hamlin ave. <pb/>Chicago Illinois <pb/> 60623. </div>
-          <div type="verso"> Srita. Juanita Guzman R. <pb/>a Lista de Correo. <pb/>Puente Grande
-            Jal. <pb/>Mexico. </div>
+          <div type="recto">
+            <p>G.F.S <lb/>2509 So. Hamlin ave. <lb/>Chicago Illinois <lb/> 60623.</p>
+          </div>
+          <div type="verso">
+            <p>Srita. Juanita Guzman R. <lb/>a Lista de Correo. <lb/>Puente Grande Jal. <lb/>Mexico.
+            </p>
+          </div>
         </div>
 
         <div type="texto">
@@ -338,8 +356,7 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
           <author corresp="MEF">Maria E. Flores</author>
         </titleStmt>
         <publicationStmt>
-          <p><placeName>Chicago, Illinois, Estados Unidos</placeName><date>9 Mayo
-            1971</date></p>
+          <p><placeName>Chicago, Illinois, Estados Unidos</placeName><date>9 Mayo 1971</date></p>
         </publicationStmt>
         <sourceDesc>
           <p/>
@@ -354,10 +371,13 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <div type="envelope">
           <pb n="17" facs="img/05ENV1.jpeg"/>
           <pb n="18" facs="img/05ENV2.jpeg"/>
-          <div type="recto">Maria Flores <pb/>2509 So. Hamlin Ave <pb/>Chicago, Illinois <pb/>
-            60623. </div>
-          <div type="verso"> Srita <pb/> Juanita Guzman R. <pb/>A lista de Correo. <pb/>Puente
-            Grande Jalisco. <pb/>-Mexico- </div>
+          <div type="recto">
+            <p>Maria Flores <lb/>2509 So. Hamlin Ave <lb/>Chicago, Illinois <lb/> 60623.</p>
+          </div>
+          <div type="verso">
+            <p>Srita <lb/> Juanita Guzman R. <lb/>A lista de Correo. <lb/>Puente Grande Jalisco.
+              <lb/>-Mexico- </p>
+          </div>
         </div>
 
         <div type="texto">
