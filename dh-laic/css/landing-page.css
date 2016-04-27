@@ -50,6 +50,7 @@ h6 {
 	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 	font-size: 5em;
 	color: rgba(255,255,255,1);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .intro-divider {
@@ -59,7 +60,8 @@ h6 {
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @media(max-width:767px) {
