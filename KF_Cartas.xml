@@ -310,17 +310,17 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
             celia nada.</p>
           <p>y dime si tienes retratos de Carlos <lb/>Piñar?</p>
           <p>Fijate que compre 2 novelas de Carlos<lb/> Pinar una es "El Milagro de la Fe"
-            <lb/>donde el la ase de Padre y la otra <lb/>"Noche Sensual" donde el la ase de <lb/>interesado,
-            pero las dos estan bonitas. <lb/>Quisas ya las allas leido.</p>
+            <lb/>donde el la ase de Padre y la otra <lb/>"Noche Sensual" donde el la ase de
+            <lb/>interesado, pero las dos estan bonitas. <lb/>Quisas ya las allas leido.</p>
           <p>y Fijate que fin al cine y bi 2 peliculas <lb/>bien bonitas la primera fue con
-            <del>Alf</del> Alberto <lb/>Vazquez y Ana Martin se llamo "Faltas <lb/>a la Moral" bien linda y
-            la otra fue <lb/>con Guillermo Murray y Maricruz Olívies <lb/>y Blanca Sanchez, y otros artistas
-            unas <lb/>nomas que no me acuerdo, bueno pues es se llamo "a entrado una Mujer"<lb/> las dos
-            estubieron muy bonitas.<lb/>
+              <del>Alf</del> Alberto <lb/>Vazquez y Ana Martin se llamo "Faltas <lb/>a la Moral"
+            bien linda y la otra fue <lb/>con Guillermo Murray y Maricruz Olívies <lb/>y Blanca
+            Sanchez, y otros artistas unas <lb/>nomas que no me acuerdo, bueno pues es se llamo "a
+            entrado una Mujer"<lb/> las dos estubieron muy bonitas.<lb/>
             <del>Tu</del> y Tu cuentame todo lo que ten-<lb/>gas de nuevo. Perdona la letra, y</p>
           <div type="marginLeft">
-            <p>contestame pronto, un beso y 1 abrazo a Everardo de mi <lb/>parte y resiban saludos de mi
-              familia, para todos ustedes en <lb/>general.</p>
+            <p>contestame pronto, un beso y 1 abrazo a Everardo de mi <lb/>parte y resiban saludos
+              de mi familia, para todos ustedes en <lb/>general.</p>
           </div>
 
           <!-- La despedida: -->
@@ -466,13 +466,42 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
               <date when="1970-05-09">9, de Mayo de 1971</date>
               <name type="place">Chicago, Illinois</name>
             </dateline>
-            <salute>Srita <name corresp="JGR">Juanita Guzman Ramos</name>,</salute>
+            <salute>Srita <lb/><name corresp="JGR">Juanita Guzman Ramos</name>,</salute>
           </opener>
 
-          <p><!--texto para la quinta carta: --></p>
+          <p>Estimada amiga con mucho gusto doy con-<lb/>testacion a tu carta donde me dices
+            que<lb/>están bien nosotros asta ahorita bien gracias<lb/>a Dios.</p>
+          <p>Juanita: de lo que me dices que tu<lb/> tambien estas guardando de no ir al
+            cine<lb/>pues me alegro y a la misma bes me das<lb/>1 conosuelo porque casi nadie lo
+            guarda<lb/>verdad, pero al ver que Dios iso tanto<lb/>sacrificio por nosotros pues el
+            que esta-<lb/>mos asiendo no <del/> viene siendo nada<lb/>acomparacio de todo lo que
+            sufrio Dios..<lb/>Te deceo buena suerte en tus proximas<lb/>pruebas, que yo en las mias
+            estoy <lb/> asiendo mas o menos, pero tengo que<lb/> estudiar bastande, y <del>le</del>
+            ni te imaginas<lb/>toda la tarea que me dejan. pero ya<lb/>bes yo me doy prisa y termino
+            como<lb/> a las 10:00 de la noche empieso a la <lb/>6:00 P.M. me abiento 4 horas. y ya
+            asta <lb/>ahorita no e reprobado mis prueba, y <lb/>espoero que en la <del>pr</del>
+            proxima que me <lb/>den tampoco la repruebeporque segun<lb/>nos dijo el maestro, que si
+            reprovamos</p>
+          <pb/>
+          <p>esa prueba no pasamos a si es que me<lb/>tengo que apuran a estudiar verdad.<lb/>y de
+            lo que me dices de Chuy Robles<lb/>pues no creo, que el Gato llore por <lb/> ella, pero
+            ya bes ella se la da de <lb/>muy importante, y se cree que es la <lb/>mas
+            bonita<del/>pero se equivoca, si <lb/>es bonita ni quien lo dude, pero se cree<lb/>mas
+            de la cuenta Verdad? y ojala le <lb/>baya bien con su Armando, y a ber<lb/>cuato dura de
+            novia de el <del/> verdad:<lb/>Bueno de esto no le digas nada a ella <lb/>ni a nadie que
+            quede entre tu y yo<lb/>okey en ti confio yo te cuento, todo,<lb/>y espero que no <del/>
+            me defraudes, que <lb/>tu puedes contar en mi yo a nadie<lb/>le digo nada todo lo que me
+            dices<lb/>queda en mi. Aqui te mando un <lb/>juego a ber si te gusta, y tan bien<lb/>un
+            papelito a Everardo.</p>
+          <p>Contestame pronto y perdona la<lb/> letra, Saludos a todos ustedes<lb/>en general
+            departe de todos nosotros</p>
+          <div type="marginLeft">
+            <p>1) eso que me dices, que te bas a Guadalajara con tu tia,<lb/>te bas a quedar con
+              ella por un tiempo o que, para<lb/> saber si te puedo escribir aqui al Puente.</p>
+          </div>
           <!-- La despedida: -->
           <closer>
-            <signed corresp="MEF">Tu amiga que berlos decea mejor que escribirte Maria
+            <signed corresp="MEF">Tu amiga que berlos decea mejor <lb/>que escribirte Maria
               Flores</signed>
             <dateline><!-- si hay --></dateline>
           </closer>
