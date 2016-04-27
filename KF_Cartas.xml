@@ -98,7 +98,7 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
               <date when="1970-11-07">7, de Noviembre de 1970</date>
               <name type="place">Chicago, Illinois</name>
             </dateline>
-            <salute>Srita <name corresp="JGR"><choice>
+            <salute>Srita <lb/><name corresp="JGR"><choice>
                   <orig>Juananita</orig>
                   <reg>Juanita</reg>
                 </choice>Guzmán R.</name>,</salute>
@@ -277,7 +277,28 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
             <salute>Srita <name corresp="JGR"> Juanita Guzmán Ramos</name>,</salute>
           </opener>
 
-          <p/>
+          <p>Estimada amiga con el gusto de siempre doy contestación a tu carta donde me dices que
+            están bien, nosotros asta ahorita bien gracias a Dios. <lb/>Juanita: <lb/>de lo que me
+            dices que el novio de Chuy es Francisco y que tu crees que tambien es Alfredo, cual
+            Alfredo? lo onosco o no? y me dices que Chuy se quiere ir de monja, pues lo dudo porque
+            ua bes que es muy coqueta, o al no. ser que si quien sabe. mira y de la fotografia pues
+            mandame- la tan luego ballas por ella okey. <lb/> yo aqui te mando la mia, para que
+            asustes a los ratones. y de lo que me dices de las pruebas pues yo ya las ise y pase en
+            todas, y ojala y pases en tus pruebas, te lo deceo de todo corazón. y de lo que me dices
+            de Joel que lo biste con Arturo pues que bueno y dime si lo biste en la Quermes, y dime
+            si te divertiste?<lb/> y me dices que ban a lebantar el</p>
+          <pb/>
+          <p>El niño dios pues que bueno y espero se diviertan todos; dime si quiebraron Pinatas o
+            no? y de Luis mi primo pues si me contesta. Pero de Celia ni palabra e oido Ramona como
+            u as de saber, pues ella si me escribe, pero celia nada.<lb/>y dime si tienes retratos
+            de Carlos Piñar?<lb/>Fijate que compre 2 novelas de Carlos Pinar una es "El Milagro de
+            la Fe" donde el la ase de Padre y la otra "Noche Sensual" donde el la ase de interesado,
+            pero las dos estan bonitas. Quisas ya las allas leido.<lb/> y Fijate que fin al cine y
+            bi 2 peliculas bien bonitas la primera fue con <del>Alf</del> Alberto Vazquez y Ana
+            Martin se llamo "Faltas a la Moral" bien linda y la otra fue con Guillermo Murray y
+            Maricruz Olívies y Blanca Sanchez, y otros artistas unas nomas que no me acuerdo, bueno
+            pues es se llamo "a entrado una Mujer" las dos estubieron muy bonitas.<lb/> <del>Tu</del> y Tu cuentame todo lo que ten-<lb/>gas de nuevo. Perdona la letra, y<
+          </p>
 
           <!-- La despedida: -->
           <closer>
