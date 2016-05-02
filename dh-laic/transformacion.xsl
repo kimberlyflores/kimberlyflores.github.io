@@ -83,6 +83,7 @@
                                 <!-- SAT: AQUÍ VA LA IMAGEN <PB> -->
                                 <xsl:for-each
                                     select="tei:text/tei:body/tei:div[@type='texto']/tei:pb">
+                                    <xsl:if test="contains(@facs, 'jpg')">
                                     <xsl:element name="img">
                                         <xsl:attribute name="src">
                                             <xsl:value-of select="@facs"/>
@@ -95,6 +96,7 @@
                                         </xsl:attribute>
                                         <xsl:attribute name="alt"/>
                                     </xsl:element>
+                                    </xsl:if>
                                 </xsl:for-each>
                             </div>
                             <!-- SAT: AQUÍ PASA TODA LA TRANSFORMACIÓN -->
