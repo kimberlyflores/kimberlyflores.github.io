@@ -3,7 +3,7 @@
     xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="tei">
 
-<!-- SAT: aquí indicamos que debe procesar todo el documento -->
+    <!-- SAT: aquí indicamos que debe procesar todo el documento -->
     <xsl:template match="/">
         <xsl:apply-templates/>
     </xsl:template>
@@ -73,12 +73,13 @@
                         <!-- Portfolio Item Row -->
                         <div class="row">
                             <div class="col-md-8 col-lg-6">
+                                <!-- SAT: AQUÍ VA LA IMAGEN <PB> -->
                                 <img src="img/01LET1b.jpg" width="550" height="731" alt=""/>
                             </div>
                             <!-- SAT: AQUÍ PASA TODA LA TRANSFORMACIÓN -->
                             <div class="col-md-4 col-lg-6">
                                 <h3>Edición Digital</h3>
-                                
+
                                 <p>TEXTO DE LA CARTA AQUÍ</p>
                                 <xsl:apply-templates/>
 
@@ -90,7 +91,8 @@
                                     <li>To where:</li>
                                 </ul>
                             </div>
-                        </div><!-- SAT: HASTA AQUÍ -->
+                        </div>
+                        <!-- SAT: HASTA AQUÍ -->
                         <!-- /.row -->
                         <!-- Related Projects Row -->
                         <div class="row">
@@ -147,25 +149,33 @@
 
     <xsl:template match="tei:teiCorpus/tei:TEI/tei:teiHeader"/>
     <xsl:template match="tei:teiCorpus/tei:TEI/tei:text/tei:body/tei:div[@type='envelope']"/>
-    
+
     <xsl:template match="tei:p">
         <p>
-        <xsl:apply-templates/>
+            <xsl:apply-templates/>
         </p>
     </xsl:template>
-    
+
     <xsl:template match="tei:opener">
         <!-- SAT: aquí deberías añadir un estilo a la CSS para que quede bien, centrado a la izquierda -->
         <div class="opener">
             <b>
-            <xsl:value-of select="tei:dateline"></xsl:value-of>
-            <xsl:value-of select="tei:salute"></xsl:value-of>
+                <xsl:value-of select="tei:dateline"/>
+                <xsl:value-of select="tei:salute"/>
             </b>
         </div>
     </xsl:template>
-    
+
+    <xsl:template match="tei:closer">
+        <div class="closer">
+            <b>
+                <xsl:apply-templates/>
+            </b>
+        </div>
+    </xsl:template>
+
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
-    
+
 </xsl:stylesheet>

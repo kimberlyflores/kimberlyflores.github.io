@@ -52,7 +52,7 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
     </encodingDesc>
 
   </teiHeader>
-  <TEI>
+  <TEI xml:id="carta1">
     <teiHeader>
       <!-- header para la primera carta-->
       <fileDesc>
@@ -155,7 +155,7 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
     </text>
   </TEI>
 
-  <TEI xml:id="carta_1">
+  <TEI xml:id="carta_2">
     <teiHeader>
       <!-- header para la segunda carta-->
       <fileDesc>
@@ -245,7 +245,7 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
     </text>
   </TEI>
 
-  <TEI xml:id="carta_2">
+  <TEI xml:id="carta_3">
     <teiHeader>
       <!-- header para la tercera carta-->
       <fileDesc>
@@ -333,7 +333,7 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
       </body>
     </text>
   </TEI>
-  <TEI xml:id="carta_3">
+  <TEI xml:id="carta_4">
     <teiHeader>
       <!-- header para la cuarta carta-->
       <fileDesc>
@@ -424,7 +424,7 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
     </text>
   </TEI>
 
-  <TEI xml:id="carta_4">
+  <TEI xml:id="carta_5">
     <teiHeader>
       <!-- header para la quinta carta-->
       <fileDesc>
