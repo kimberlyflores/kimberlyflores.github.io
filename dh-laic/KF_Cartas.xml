@@ -52,7 +52,7 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
     </encodingDesc>
 
   </teiHeader>
-  <TEI xml:id="carta1">
+  <TEI xml:id="carta_1">
     <teiHeader>
       <!-- header para la primera carta-->
       <fileDesc>
@@ -75,8 +75,8 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <!-- Contenido de la primera carta -->
         <!-- SAT: es mejor una sección para el sobre y otra para el texto -->
         <div type="envelope">
-          <pb n="1" facs="img/01ENV1.jpeg"/>
-          <pb n="2" facs="img/01ENV2.jpeg"/>
+          <pb n="1" facs="img/01ENV1.jpg"/>
+          <pb n="2" facs="img/01ENV2.jpg"/>
           <div type="recto">
             <p>Maria E. Flores <lb/>2509 So. Hamlin Ave <lb/>Chicago Ill. 60623 </p>
           </div>
@@ -91,8 +91,8 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <div type="texto">
           <!-- Indica también los cambios de página; sitúa todas las imágenes en una carpeta "img", 
             por ejemplo, y señala la url precisa para que las podamos conectar con la transcripción -->
-          <pb n="3" facs="img/01LET1.jpeg"/>
-          <pb n="4" facs="img/01LET2.jpeg"/>
+          <pb n="3" facs="img/01LET1.jpg"/>
+          <pb n="4" facs="img/01LET2.jpg"/>
           <opener>
             <dateline>
               <date when="1970-11-07">7, de Noviembre de 1970</date>
@@ -178,8 +178,8 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <!-- Contenido de la segunda carta -->
         <!-- SAT: es mejor una sección para el sobre y otra para el texto -->
         <div type="envelope">
-          <pb n="5" facs="img/02ENV1.jpeg"/>
-          <pb n="6" facs="img/02ENV2.jpeg"/>
+          <pb n="5" facs="img/02ENV1.jpg"/>
+          <pb n="6" facs="img/02ENV2.jpg"/>
           <div type="recto">
             <p>Rt. G.F.S.<lb/>2509 So. HAMLIN AVE. <lb/>CHICAGO, Ill. 60623 </p>
           </div>
@@ -192,8 +192,8 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <div type="texto">
           <!-- Indica también los cambios de página; sitúa todas las imágenes en una carpeta "img", 
             por ejemplo, y señala la url precisa para que las podamos conectar con la transcripción -->
-          <pb n="7" facs="img/02LET1.jpeg"/>
-          <pb n="8" facs="img/02LET2.jpeg"/>
+          <pb n="7" facs="img/02LET1.jpg"/>
+          <pb n="8" facs="img/02LET2.jpg"/>
           <opener>
             <dateline>
               <date when="1970-11-28">28 de Noviembre de 1970</date>
@@ -267,8 +267,8 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <!-- Contenido de la tercera carta -->
         <!-- SAT: es mejor una sección para el sobre y otra para el texto -->
         <div type="envelope">
-          <pb n="9" facs="img/03ENV1.jpeg"/>
-          <pb n="10" facs="img/03ENV2.jpeg"/>
+          <pb n="9" facs="img/03ENV1.jpg"/>
+          <pb n="10" facs="img/03ENV2.jpg"/>
           <div type="recto">
             <p>Maria E. Flores S.<lb/>2509 So. Hamlin Ave <lb/>Chicago Illinois<lb/> 60623</p>
           </div>
@@ -281,8 +281,8 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <div type="texto">
           <!-- Indica también los cambios de página; sitúa todas las imágenes en una carpeta "img", 
             por ejemplo, y señala la url precisa para que las podamos conectar con la transcripción -->
-          <pb n="11" facs="img/03LET1.jpeg"/>
-          <pb n="12" facs="img/03LET2.jpeg"/>
+          <pb n="11" facs="img/03LET1.jpg"/>
+          <pb n="12" facs="img/03LET2.jpg"/>
           <opener>
             <dateline>
               <date when="1971-02-01">1 de Febrero de 1971</date>
@@ -356,8 +356,8 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <!-- Contenido de la cuarta carta -->
         <!-- SAT: es mejor una sección para el sobre y otra para el texto -->
         <div type="envelope">
-          <pb n="13" facs="img/04ENV1.jpeg"/>
-          <pb n="14" facs="img/04ENV2.jpeg"/>
+          <pb n="13" facs="img/04ENV1.jpg"/>
+          <pb n="14" facs="img/04ENV2.jpg"/>
           <div type="recto">
             <p>G.F.S <lb/>2509 So. Hamlin ave. <lb/>Chicago Illinois <lb/> 60623.</p>
           </div>
@@ -370,8 +370,8 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <div type="texto">
           <!-- Indica también los cambios de página; sitúa todas las imágenes en una carpeta "img", 
             por ejemplo, y señala la url precisa para que las podamos conectar con la transcripción -->
-          <pb n="15" facs="img/04LET1.jpeg"/>
-          <pb n="16" facs="img/04LET2.jpeg"/>
+          <pb n="15" facs="img/04LET1.jpg"/>
+          <pb n="16" facs="img/04LET2.jpg"/>
           <opener>
             <dateline>
               <date when="1970-02-20">Febrero 20, 1971</date>
@@ -446,8 +446,8 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <!-- Contenido de la quinta carta -->
         <!-- SAT: es mejor una sección para el sobre y otra para el texto -->
         <div type="envelope">
-          <pb n="17" facs="img/05ENV1.jpeg"/>
-          <pb n="18" facs="img/05ENV2.jpeg"/>
+          <pb n="17" facs="img/05ENV1.jpg"/>
+          <pb n="18" facs="img/05ENV2.jpg"/>
           <div type="recto">
             <p>Maria Flores <lb/>2509 So. Hamlin Ave <lb/>Chicago, Illinois <lb/> 60623.</p>
           </div>
@@ -460,8 +460,8 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
         <div type="texto">
           <!-- Indica también los cambios de página; sitúa todas las imágenes en una carpeta "img", 
             por ejemplo, y señala la url precisa para que las podamos conectar con la transcripción -->
-          <pb n="19" facs="img/05LET1.jpeg"/>
-          <pb n="20" facs="img/05LET2.jpeg"/>
+          <pb n="19" facs="img/05LET1.jpg"/>
+          <pb n="20" facs="img/05LET2.jpg"/>
           <opener>
             <dateline>
               <date when="1970-05-09">9, de Mayo de 1971</date>

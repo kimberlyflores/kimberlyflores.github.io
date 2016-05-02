@@ -65,7 +65,14 @@
                         <div class="row">
                             <div>Content for New div Tag Goes Here</div>
                             <div class="col-lg-12">
-                                <h1 class="page-header">Carta # <small>[fecha]</small>
+                                <h1 class="page-header">
+                                    <xsl:value-of
+                                        select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                                    <small>
+                                        <xsl:value-of
+                                            select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:p/tei:date"
+                                        />
+                                    </small>
                                 </h1>
                             </div>
                         </div>
@@ -74,19 +81,36 @@
                         <div class="row">
                             <div class="col-md-8 col-lg-6">
                                 <!-- SAT: AQUÍ VA LA IMAGEN <PB> -->
-                                <img src="img/01LET1b.jpg" width="550" height="731" alt=""/>
+                                <xsl:for-each
+                                    select="tei:text/tei:body/tei:div[@type='texto']/tei:pb">
+                                    <xsl:element name="img">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="@facs"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="width">
+                                            <xsl:value-of>550</xsl:value-of>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="height">
+                                            <xsl:value-of>731</xsl:value-of>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt"/>
+                                    </xsl:element>
+                                </xsl:for-each>
                             </div>
                             <!-- SAT: AQUÍ PASA TODA LA TRANSFORMACIÓN -->
                             <div class="col-md-4 col-lg-6">
                                 <h3>Edición Digital</h3>
-
-                                <p>TEXTO DE LA CARTA AQUÍ</p>
+                                <!--     <p>TEXTO DE LA CARTA AQUÍ</p>-->
                                 <xsl:apply-templates/>
 
                                 <h3>Metadatos</h3>
                                 <ul>
-                                    <li>From whom: </li>
-                                    <li>From where: </li>
+                                    <li>From whom: <xsl:value-of
+                                            select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"
+                                        /></li>
+                                    <li>From where: <xsl:value-of
+                                            select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:p/tei:placeName"
+                                        /></li>
                                     <li>To whom:</li>
                                     <li>To where:</li>
                                 </ul>
@@ -177,5 +201,7 @@
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
+
+
 
 </xsl:stylesheet>
