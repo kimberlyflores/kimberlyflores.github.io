@@ -109,40 +109,194 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
           <p><choice>
               <orig>Juananita:</orig>
               <reg>Juanita:</reg>
-            </choice>de lo que me dices de Joel <lb/> que lo biste pues que bueno olle y no<lb/> te
-            as dado cuenta si tiene novia?<lb/></p>
-          <p>Ahy Joel tan chulito verdad? Cuentame <lb/>mas a serca de el okey.</p>
-          <p>y de lo que me dices de Daniel y el <lb/> Gato pues que bueno que ya binieron <lb/>del
-            viaje pero yo creo se ban a volver<lb/> a ir verdad, nomas que ahora se<lb/>ba a ir
-            Lencho con el Gato, bueno yo <lb/> creo dime a ver si Lencho de ba de <lb/>viaje. y de
-            lo que me dices de las <lb/>peliculas de Pili y Mili oye <lb/>y como se llamo esa
-            pelicula a lo mejor <lb/>ya la vi. yo ya bi sor ye-ye-berdad <lb/>que esta muy bonita! y
-            que guapo<lb/> se beia Enrique Guzmán y de lo <lb/>que me dices pues ya no te bayas
-            <lb/>a quedar otro dia que bayas al cine <lb/>si no ya no te dejan porque como dices
-            <lb/>la tercera es la vencida verdad</p>
+            </choice>de lo que me dices de Joel <lb/> que lo <choice>
+              <orig>biste</orig>
+              <reg>viste</reg>
+            </choice> pues que bueno olle y no<lb/> te <choice>
+              <orig>as</orig>
+              <reg>as</reg>
+            </choice> dado cuenta si tiene novia?<lb/></p>
+          <p><choice>
+              <orig>Ahy</orig>
+              <reg>Ay</reg>
+            </choice>Joel tan chulito verdad? Cuentame <lb/><choice>
+              <orig>mas</orig>
+              <reg>más</reg>
+            </choice><choice>
+              <orig>a serca</orig>
+              <reg>acerca</reg>
+            </choice>de<choice>
+              <orig>el</orig>
+              <reg>él</reg>
+            </choice><foreign>okey</foreign></p>
+          <p>y de lo que me dices de Daniel y el <lb/> Gato pues que bueno que ya <choice>
+              <orig>binieron</orig>
+              <reg>vinieron</reg>
+            </choice><lb/>del viaje pero yo creo se <choice>
+              <orig>ban</orig>
+              <reg>van</reg>
+            </choice>a volver<lb/> a ir verdad, nomas que ahora se<lb/><choice>
+              <orig>ba</orig>
+              <reg>va</reg>
+            </choice> a ir Lencho con el Gato, bueno yo <lb/> creo dime a ver si Lencho de <choice>
+              <orig>ba</orig>
+              <reg>va</reg>
+            </choice> de <lb/>viaje. y de lo que me dices de las <lb/><choice>
+              <orig>peliculas</orig>
+              <reg>películas</reg>
+            </choice>de Pili y Mili oye <lb/>y como se <choice>
+              <orig>llamo</orig>
+              <reg>llamó</reg>
+            </choice> esa <choice>
+              <orig>pelicula</orig>
+              <reg>película</reg>
+            </choice> a lo mejor <lb/>ya la vi. yo ya <choice>
+              <orig>bi</orig>
+              <reg>vi</reg>
+            </choice> sor ye-ye-<choice>
+              <orig>berdad</orig>
+              <reg>verdad</reg>
+            </choice>
+            <lb/>que <choice>
+              <orig>esta</orig>
+              <reg>está</reg>
+            </choice> muy bonita! y que guapo<lb/> se <choice>
+              <orig>beia</orig>
+              <reg>veía</reg>
+            </choice> Enrique Guzmán y de lo <lb/>que me dices pues ya no te <choice>
+              <orig>bayas</orig>
+              <reg>vayas></reg>
+            </choice><lb/>a quedar otro <choice>
+              <orig>dia</orig>
+              <reg>día</reg>
+            </choice>que <choice>
+              <orig>bayas</orig>
+              <reg>vayas></reg>
+            </choice> al cine <lb/>si no ya no te dejan porque como dices <lb/>la tercera es la
+            vencida verdad</p>
           <pb/>
-          <p>Pues nosotros bamos a tener 1 prueba <lb/>de cada libro como dentro de 1 semana
-            <lb/>pero fijate que ya me dieron las pruebas <lb/>para ber si paso y ya las isimos
-            todos <lb/>pero no nos an dado el resultado asta <lb/>en Junio no lo ban a dar pero ya
-            pasa-<lb/>mos ese miedo que teniamos y suerte <lb/>con tus pruebas en la escuela.</p>
-          <p>Mira de eso que dices de las novelas <lb/> pues si quieres calale y me mandas <lb/>en
-            cada carta 1 hoja okey.</p>
+          <p>Pues nosotros <choice>
+              <orig>bamos</orig>
+              <reg>vamos</reg>
+            </choice>a tener 1 prueba <lb/>de cada libro como dentro de 1 semana <lb/>pero <choice>
+              <orig>fijate</orig>
+              <reg>fíjate</reg>
+            </choice>que ya me dieron las pruebas <lb/>para <choice>
+              <orig>ber</orig>
+              <reg>ver</reg>
+            </choice> si paso y ya las <choice>
+              <orig>isimos</orig>
+              <reg>hicimos</reg>
+            </choice>todos <lb/>pero no nos <choice>
+              <orig>an</orig>
+              <reg>han</reg>
+            </choice>dado el resultado <choice>
+              <orig>asta</orig>
+              <reg>hasta</reg>
+            </choice><lb/>en Junio no lo <choice>
+              <orig>ban</orig>
+              <reg>van</reg>
+            </choice>a dar pero ya pasa-<lb/>mos ese miedo que <choice>
+              <orig>teniamos</orig>
+              <reg>teníamos</reg>
+            </choice> y suerte <lb/>con tus pruebas en la escuela.</p>
+          <p>Mira de eso que dices de las novelas <lb/> pues si quieres <choice>
+              <orig>calale</orig>
+              <reg>cálale</reg>
+            </choice>calale y me mandas <lb/>en cada carta 1 hoja <foreign>okey</foreign>.</p>
           <p> Oye de lo que me dices de Celia y Ramo-<lb/>na no que se fueron al ranchito y por
-            <lb/>que se ban que no los gusta Puente <lb/>preguntales si los bes y dile que me
-            <lb/>contesten okey. y Celia no me hablo <lb/>por lo que me dices, pues ahy sera
-            <lb/>otro dia verdad. Oye y el Aguate si <lb/>me hablo por telefono este jueves iso
-            <lb/>8 dias y platicamos, pero muy poco ya<lb/> bes que por telefono no se puede
-            hablar<lb/> mucho. y la le escrebi despues te<lb/> mando decir si me contesta y lo que
-            me manda decir, y cuentame de el Gato y de el Aguate y de Joel, si</p>
+            <lb/>que se <choice>
+              <orig>ban</orig>
+              <reg>van</reg>
+            </choice> que no <choice>
+              <orig>los</orig>
+              <reg>les</reg>
+            </choice> gusta Puente <lb/><choice>
+              <orig>preguntales</orig>
+              <reg>pregúntales</reg>
+            </choice> si los <choice>
+              <orig>bes</orig>
+              <reg>ves</reg>
+            </choice> y dile que me <lb/>contesten <foreign>okey</foreign>. y Celia no me hablo
+            <lb/>por lo que me dices, pues <choice>
+              <orig>ahy</orig>
+              <reg>ahí</reg>
+            </choice>
+            <choice>
+              <orig>sera</orig>
+              <reg>será</reg>
+            </choice>
+            <lb/>otro <choice>
+              <orig>dia</orig>
+              <reg>día</reg>
+            </choice> verdad. Oye y el Aguate si <lb/>me <choice>
+              <orig>hablo</orig>
+              <reg>habló</reg>
+            </choice> por <choice>
+              <orig>telefono</orig>
+              <reg>teléfono</reg>
+            </choice> este jueves <choice>
+              <orig>iso</orig>
+              <reg>hace</reg>
+            </choice>
+            <lb/>8 dias y platicamos, pero muy poco ya<lb/>
+            <choice>
+              <orig>bes</orig>
+              <reg>ves</reg>
+            </choice> que por <choice>
+              <orig>telefono</orig>
+              <reg>teléfono</reg>
+            </choice> no se puede hablar<lb/> mucho. y ya le <choice>
+              <orig>escrebi</orig>
+              <reg>escribí</reg>
+            </choice>
+            <choice>
+              <orig>despues</orig>
+              <reg>después</reg>
+            </choice> te<lb/> mando decir si me contesta y lo que me manda decir, y <choice>
+              <orig>cuentame</orig>
+              <reg>cuéntame</reg>
+            </choice>
+            <choice>
+              <orig>de el</orig>
+              <reg>del</reg>
+            </choice>Gato y <choice>
+              <orig>de el</orig>
+              <reg>del</reg>
+            </choice>Aguate y de Joel, si</p>
           <div type="marginLeft">
-            <p>no es molestia para ti tu que los puedes ber porque yo <lb/>ni esperansas ya bes y
-              dile a Lilia que me conteste. <lb/>Bueno cuentame todo lo que tengas de nuevo yo fui
-              al <lb/>cine a ber una Pelicula de Capulina se llamo el "Songano" bien <lb/>bonita y
-              otra con Jorge Rivero no me acuerdo del nombre pero estubo bien</p>
+            <p>no es molestia para ti tu que los puedes <choice>
+                <orig>ber</orig>
+                <reg>ver</reg>
+              </choice> porque yo <lb/>ni <choice>
+                <orig>esperansas</orig>
+                <reg>esperanzas</reg>
+              </choice> ya <choice>
+                <orig>bes</orig>
+                <reg>ves</reg>
+              </choice> y dile a Lilia que me conteste. <lb/>Bueno <choice>
+                <orig>cuentame</orig>
+                <reg>cuéntame</reg>
+              </choice> todo lo que tengas de nuevo yo fui al <lb/>cine a <choice>
+                <orig>ber</orig>
+                <reg>ver</reg>
+              </choice> una Pelicula de Capulina se <choice>
+                <orig>llamo</orig>
+                <reg>llamó</reg>
+              </choice> el "Songano" bien <lb/>bonita y otra con Jorge Rivero no me acuerdo del
+              nombre pero <choice>
+                <orig>estubo</orig>
+                <reg>estuvo</reg>
+              </choice> bien</p>
           </div>
           <div type="marginTop">
-            <p>linda tan bien, y en la escuela pues <lb/>me ba a todo dar. Perdona la letra.
-              <lb/>Saludame a todos y a mi guerito chulito <lb/>dale un beso de mi parte y un abraso
+            <p>linda tan bien, y en la escuela pues <lb/>me <choice>
+                <orig>ba</orig>
+                <reg>va</reg>
+              </choice> a todo dar. Perdona la letra. <lb/><choice>
+                <orig>Saludame</orig>
+                <reg>Salúdame</reg>
+              </choice> a todos y a mi guerito chulito <lb/>dale un beso de mi parte y un abraso
               sa-<lb/>ludos a tu mamá. Contestame tan luego <lb/>puedas.</p>
           </div>
           <!-- La despedida: -->
