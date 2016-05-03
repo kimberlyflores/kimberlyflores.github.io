@@ -119,7 +119,10 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
           <p><choice>
               <orig>Ahy</orig>
               <reg>Ay</reg>
-            </choice>Joel tan chulito verdad? Cuentame <lb/><choice>
+            </choice>Joel tan chulito verdad? <choice>
+              <orig>cuentame</orig>
+              <reg>cuéntame</reg>
+            </choice><lb/><choice>
               <orig>mas</orig>
               <reg>más</reg>
             </choice><choice>
@@ -203,7 +206,7 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
           <p>Mira de eso que dices de las novelas <lb/> pues si quieres <choice>
               <orig>calale</orig>
               <reg>cálale</reg>
-            </choice>calale y me mandas <lb/>en cada carta 1 hoja <foreign>okey</foreign>.</p>
+            </choice> y me mandas <lb/>en cada carta 1 hoja <foreign>okey</foreign>.</p>
           <p> Oye de lo que me dices de Celia y Ramo-<lb/>na no que se fueron al ranchito y por
             <lb/>que se <choice>
               <orig>ban</orig>
@@ -296,8 +299,16 @@ mientras que cada una de las cartas contendrán sólo las informaciones de la mi
               </choice> a todo dar. Perdona la letra. <lb/><choice>
                 <orig>Saludame</orig>
                 <reg>Salúdame</reg>
-              </choice> a todos y a mi guerito chulito <lb/>dale un beso de mi parte y un abraso
-              sa-<lb/>ludos a tu mamá. Contestame tan luego <lb/>puedas.</p>
+              </choice> a todos y a mi <choice>
+                <orig>guerito</orig>
+                <reg>güerito</reg>
+              </choice> chulito <lb/>dale un beso de mi parte y un <choice>
+                <orig>abraso</orig>
+                <reg>abrazo</reg>
+              </choice> sa-<lb/>ludos a tu mamá. <choice>
+                <orig>Contestame</orig>
+                <reg>Contéstame</reg>
+              </choice> tan luego <lb/>puedas.</p>
           </div>
           <!-- La despedida: -->
           <closer>
