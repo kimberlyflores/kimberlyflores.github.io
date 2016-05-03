@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- SAT: Creo que lo más adecuado es crear un corpus de cartas, de esta manera crearemos un único <teiHeader> con todas las informaciones generales, 
+mientras que cada una de las cartas contendrán sólo las informaciones de la misiva.-->
+<teiCorpus version="5.2" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+
+    <fileDesc>
+      <titleStmt>
+        <title>Cartas de 7 Noviembre 1970 a 9 May 1971</title>
+        <!-- SAT: el título de tu proyecto -->
+        <author xml:id="MEF">Maria E.
+          Flores<!-- los autores de las cartas con un identificador --></author>
+        <author xml:id="GFS">Gabriel Flores Serrano</author>
+        <respStmt>
+          <resp>Edición realizada por</resp>
+          <name xml:id="KF">Kimberly Flores</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Trabajo realizado en el marco de la asignatura Humanidades Digitales Latinoamericanas e
+          ibéricas, impartida por <name xml:id="SAT">Susanna Allés Torrent</name>) durante el
+          Semestre de primavera <date from="2016-01-20" to="2016-05-14">2016</date></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Los materiales perteneces a <name xml:id="JGR">Juanita Guzmán Ramos</name> ... Las cartas
+          fueron colectadas por Juanita Guzmán Ramos durante su noviasgo con Gabriel Flores Serrano
+          entre los años 1970 y 1974.</p>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <projectDesc>
+        <p>El marcado de este texto se ha realizado a partir de una serie de cartas... </p>
+        <p>Los borrones se han marcado la etiqueta <del/></p>
+        <p>Los errores se han mantenido en su versión original, ofreciendo también su corrección.
+          Por ejemplo, <choice>
+            <orig>disiendo</orig>
+            <reg>diciendo</reg>
+          </choice></p>
+        <p>Para las secciones de texto que aparecen en los márgenes con el elemento "div" con un
+          @type y valores "marginLeft", "marginRight", "marginTop" y "marginBottom".</p>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>El marcado indica las correcciones editorials que se han llevado a cabo</p>
+        </correction>
+        <normalization>
+          <p>Se ofrecen las formas regularizadas de ciertas grafías...</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+
+  </teiHeader>
+  <TEI xml:id="carta_1">
+    <teiHeader>
+      <!-- header para la primera carta-->
+      <fileDesc>
+        <titleStmt>
+          <title>Carta 1</title>
+          <author corresp="MEF">Maria E. Flores</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><placeName>Chicago, Illinois, Estados Unidos</placeName><date>7 Noviembre
+            1970</date></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p/>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+
+    <text>
+      <body>
+        <!-- Contenido de la primera carta -->
+        <!-- SAT: es mejor una sección para el sobre y otra para el texto -->
+        <div type="envelope">
+          <pb n="1" facs="img/01ENV1.jpg"/>
+          <pb n="2" facs="img/01ENV2.jpg"/>
+          <div type="recto">
+            <p>Maria E. Flores <lb/>2509 So. Hamlin Ave <lb/>Chicago Ill. 60623 </p>
+          </div>
+          <div type="verso">
+            <p>Srita <choice>
+                <orig>Juananita</orig>
+                <reg>Juanita</reg>
+              </choice> Guzmán R. <lb/>A lista de Correo <lb/>Puente Grande Jal. <lb/>-Mexico- </p>
+          </div>
+        </div>
+
+        <div type="texto">
+          <!-- Indica también los cambios de página; sitúa todas las imágenes en una carpeta "img", 
+            por ejemplo, y señala la url precisa para que las podamos conectar con la transcripción -->
+          <pb n="3" facs="img/01LET1.jpg"/>
+          <pb n="4" facs="img/01LET2.jpg"/>
+          <opener>
+            <dateline>
+              <date when="1970-11-07">7, de Noviembre de 1970</date>
+              <name type="place">Chicago, Illinois</name>
+            </dateline>
+            <salute>Srita <lb/><name corresp="JGR"><choice>
+                  <orig>Juananita</orig>
+                  <reg>Juanita</reg>
+                </choice>Guzmán R.</name>,</salute>
+          </opener>
+
+          <p>Estimada y querida amiga con mucho <lb/> gusto doy contestación a tu carta donde <lb/>
+            me dices que estás bien nosotros asta <lb/> ahorita bien gracias a Dios.</p>
+          <p><choice>
+              <orig>Juananita:</orig>
+              <reg>Juanita:</reg>
+            </choice>de lo que me dices de Joel <lb/> que lo <choice>
+              <orig>biste</orig>
+              <reg>viste</reg>
+            </choice> pues que bueno olle y no<lb/> te <choice>
+              <orig>as</orig>
+              <reg>as</reg>
+            </choice> dado cuenta si tiene novia?<lb/></p>
+          <p><choice>
+              <orig>Ahy</orig>
+              <reg>Ay</reg>
+            </choice>Joel tan chulito verdad? <choice>
+              <orig>cuentame</orig>
+              <reg>cuéntame</reg>
+            </choice><lb/><choice>
+              <orig>mas</orig>
+              <reg>más</reg>
+            </choice><choice>
+              <orig>a serca</orig>
+              <reg>acerca</reg>
+            </choice>de<choice>
+              <orig>el</orig>
+              <reg>él</reg>
+            </choice><foreign>okey</foreign></p>
+          <p>y de lo que me dices de Daniel y el <lb/> Gato pues que bueno que ya <choice>
+              <orig>binieron</orig>
+              <reg>vinieron</reg>
+            </choice><lb/>del viaje pero yo creo se <choice>
+              <orig>ban</orig>
+              <reg>van</reg>
+            </choice>a volver<lb/> a ir verdad, nomas que ahora se<lb/><choice>
+              <orig>ba</orig>
+              <reg>va</reg>
+            </choice> a ir Lencho con el Gato, bueno yo <lb/> creo dime a ver si Lencho de <choice>
+              <orig>ba</orig>
+              <reg>va</reg>
+            </choice> de <lb/>viaje. y de lo que me dices de las <lb/><choice>
+              <orig>peliculas</orig>
+              <reg>películas</reg>
+            </choice>de Pili y Mili oye <lb/>y como se <choice>
+              <orig>llamo</orig>
+              <reg>llamó</reg>
+            </choice> esa <choice>
+              <orig>pelicula</orig>
+              <reg>película</reg>
+            </choice> a lo mejor <lb/>ya la vi. yo ya <choice>
+              <orig>bi</orig>
+              <reg>vi</reg>
+            </choice> sor ye-ye-<choice>
+              <orig>berdad</orig>
+              <reg>verdad</reg>
+            </choice>
+            <lb/>que <choice>
+              <orig>esta</orig>
+              <reg>está</reg>
+            </choice> muy bonita! y que guapo<lb/> se <choice>
+              <orig>beia</orig>
+              <reg>veía</reg>
+            </choice> Enrique Guzmán y de lo <lb/>que me dices pues ya no te <choice>
+              <orig>bayas</orig>
+              <reg>vayas></reg>
+            </choice><lb/>a quedar otro <choice>
+              <orig>dia</orig>
+              <reg>día</reg>
+            </choice>que <choice>
+              <orig>bayas</orig>
+              <reg>vayas></reg>
+            </choice> al cine <lb/>si no ya no te dejan porque como dices <lb/>la tercera es la
+            vencida verdad</p>
+          <pb/>
+          <p>Pues nosotros <choice>
+              <orig>bamos</orig>
+              <reg>vamos</reg>
+            </choice>a tener 1 prueba <lb/>de cada libro como dentro de 1 semana <lb/>pero <choice>
+              <orig>fijate</orig>
+              <reg>fíjate</reg>
+            </choice>que ya me dieron las pruebas <lb/>para <choice>
+              <orig>ber</orig>
+              <reg>ver</reg>
+            </choice> si paso y ya las <choice>
+              <orig>isimos</orig>
+              <reg>hicimos</reg>
+            </choice>todos <lb/>pero no nos <choice>
+              <orig>an</orig>
+              <reg>han</reg>
+            </choice>dado el resultado <choice>
+              <orig>asta</orig>
+              <reg>hasta</reg>
+            </choice><lb/>en Junio no lo <choice>
+              <orig>ban</orig>
+              <reg>van</reg>
+            </choice>a dar pero ya pasa-<lb/>mos ese miedo que <choice>
+              <orig>teniamos</orig>
+              <reg>teníamos</reg>
+            </choice> y suerte <lb/>con tus pruebas en la escuela.</p>
+          <p>Mira de eso que dices de las novelas <lb/> pues si quieres <choice>
+              <orig>calale</orig>
+              <reg>cálale</reg>
+            </choice> y me mandas <lb/>en cada carta 1 hoja <foreign>okey</foreign>.</p>
+          <p> Oye de lo que me dices de Celia y Ramo-<lb/>na no que se fueron al ranchito y por
+            <lb/>que se <choice>
+              <orig>ban</orig>
+              <reg>van</reg>
+            </choice> que no <choice>
+              <orig>los</orig>
+              <reg>les</reg>
+            </choice> gusta Puente <lb/><choice>
+              <orig>preguntales</orig>
+              <reg>pregúntales</reg>
+            </choice> si los <choice>
+              <orig>bes</orig>
+              <reg>ves</reg>
+            </choice> y dile que me <lb/>contesten <foreign>okey</foreign>. y Celia no me hablo
+            <lb/>por lo que me dices, pues <choice>
+              <orig>ahy</orig>
+              <reg>ahí</reg>
+            </choice>
+            <choice>
+              <orig>sera</orig>
+              <reg>será</reg>
+            </choice>
+            <lb/>otro <choice>
+              <orig>dia</orig>
+              <reg>día</reg>
+            </choice> verdad. Oye y el Aguate si <lb/>me <choice>
+              <orig>hablo</orig>
+              <reg>habló</reg>
+            </choice> por <choice>
+              <orig>telefono</orig>
+              <reg>teléfono</reg>
+            </choice> este jueves <choice>
+              <orig>iso</orig>
+              <reg>hace</reg>
+            </choice>
+            <lb/>8 dias y platicamos, pero muy poco ya<lb/>
+            <choice>
+              <orig>bes</orig>
+              <reg>ves</reg>
+            </choice> que por <choice>
+              <orig>telefono</orig>
+              <reg>teléfono</reg>
+            </choice> no se puede hablar<lb/> mucho. y ya le <choice>
+              <orig>escrebi</orig>
+              <reg>escribí</reg>
+            </choice>
+            <choice>
+              <orig>despues</orig>
+              <reg>después</reg>
+            </choice> te<lb/> mando decir si me contesta y lo que me manda decir, y <choice>
+              <orig>cuentame</orig>
+              <reg>cuéntame</reg>
+            </choice>
+            <choice>
+              <orig>de el</orig>
+              <reg>del</reg>
+            </choice>Gato y <choice>
+              <orig>de el</orig>
+              <reg>del</reg>
+            </choice>Aguate y de Joel, si</p>
+          <div type="marginLeft">
+            <p>no es molestia para ti tu que los puedes <choice>
+                <orig>ber</orig>
+                <reg>ver</reg>
+              </choice> porque yo <lb/>ni <choice>
+                <orig>esperansas</orig>
+                <reg>esperanzas</reg>
+              </choice> ya <choice>
+                <orig>bes</orig>
+                <reg>ves</reg>
+              </choice> y dile a Lilia que me conteste. <lb/>Bueno <choice>
+                <orig>cuentame</orig>
+                <reg>cuéntame</reg>
+              </choice> todo lo que tengas de nuevo yo fui al <lb/>cine a <choice>
+                <orig>ber</orig>
+                <reg>ver</reg>
+              </choice> una Pelicula de Capulina se <choice>
+                <orig>llamo</orig>
+                <reg>llamó</reg>
+              </choice> el "Songano" bien <lb/>bonita y otra con Jorge Rivero no me acuerdo del
+              nombre pero <choice>
+                <orig>estubo</orig>
+                <reg>estuvo</reg>
+              </choice> bien</p>
+          </div>
+          <div type="marginTop">
+            <p>linda tan bien, y en la escuela pues <lb/>me <choice>
+                <orig>ba</orig>
+                <reg>va</reg>
+              </choice> a todo dar. Perdona la letra. <lb/><choice>
+                <orig>Saludame</orig>
+                <reg>Salúdame</reg>
+              </choice> a todos y a mi <choice>
+                <orig>guerito</orig>
+                <reg>güerito</reg>
+              </choice> chulito <lb/>dale un beso de mi parte y un <choice>
+                <orig>abraso</orig>
+                <reg>abrazo</reg>
+              </choice> sa-<lb/>ludos a tu mamá. <choice>
+                <orig>Contestame</orig>
+                <reg>Contéstame</reg>
+              </choice> tan luego <lb/>puedas.</p>
+          </div>
+          <!-- La despedida: -->
+          <closer>
+            <signed corresp="MEF">tu amiga Maria E. Flores</signed>
+            <dateline><!-- si hay --></dateline>
+          </closer>
+        </div>
+      </body>
+    </text>
+  </TEI>
+
+  <TEI xml:id="carta_2">
+    <teiHeader>
+      <!-- header para la segunda carta-->
+      <fileDesc>
+        <titleStmt>
+          <title>Carta 2</title>
+          <author corresp="GFS">Gabriel Flores Serrano</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><placeName>Chicago, Illinois, Estados Unidos</placeName><date>28 Noviembre
+            1970</date></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p/>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+
+    <text>
+      <body>
+        <!-- Contenido de la segunda carta -->
+        <!-- SAT: es mejor una sección para el sobre y otra para el texto -->
+        <div type="envelope">
+          <pb n="5" facs="img/02ENV1.jpg"/>
+          <pb n="6" facs="img/02ENV2.jpg"/>
+          <div type="recto">
+            <p>Rt. G.F.S.<lb/>2509 So. HAMLIN AVE. <lb/>CHICAGO, Ill. 60623 </p>
+          </div>
+          <div type="verso">
+            <p>SRITA.<lb/> JUANITA GUZMAN R. <lb/>A LISTA DE CORREO. <lb/>PUENTE GRANDE
+              JAL.<lb/>----MEXICO-------.</p>
+          </div>
+        </div>
+
+        <div type="texto">
+          <!-- Indica también los cambios de página; sitúa todas las imágenes en una carpeta "img", 
+            por ejemplo, y señala la url precisa para que las podamos conectar con la transcripción -->
+          <pb n="7" facs="img/02LET1.jpg"/>
+          <pb n="8" facs="img/02LET2.jpg"/>
+          <opener>
+            <dateline>
+              <date when="1970-11-28">28 de Noviembre de 1970</date>
+              <name type="place">Chicago, Illinois</name>
+            </dateline>
+            <salute>Srita <name corresp="JGR"> Juanita Guzman R.</name>,</salute>
+          </opener>
+          <!-- SAT: los lb no coinciden con la imagen -->
+          <p>Querida y apreciable novia con gusto doy <lb/>contestación a tu carta donde me dises
+            que<lb/> estan bien nosotros asta ahorita bien gracias adios. <lb/>te acuerdas que me
+            dijiste que yo no me paresia <lb/>en la fotografia pos yo en todas las fotografias no
+            <lb/>me paresco en ninguna de resien que llegue aqui <lb/>a Chicago me retrataron es
+            cuando toda via <lb/>no tenia lentes y no me paresco y el otro dia<lb/> me retrate sin
+            lentes y tampoco me paresco yo no <lb/>se porque. mira eso de Luis Serrano si ya le
+            dijiste <lb/>pos nimodo yo la carta que te dije que le bia mandado <lb/>si el no la
+            resibio ami no me a llegado para tras <lb/>de desir que yo yale escribi no puedo
+            provarle sino <lb/>tengo yo su carta que le mande olle Juanita esierto que <lb/> el
+            aguate se quiere benir para Chicago pos si lo <lb/>bes dile que no puede que ne sesita
+            una carta que <lb/>diga que si le dan un permiso de 15 dias porque <lb/>algun familiar
+            quiere berlo y quiere que pase la <lb/>navidad aqui o algo asi. mas o menos y el
+            que<lb/>diga que biene a pasar la navidad con su padrino o su <lb/>madrina o algo asi.
+            bueno eso de la escuela esierto<lb/> que me corrieron pero ese mismo dia que me
+            corrieron fue <lb/>Chela a sacarme de la escuela porque Chela iba entrar <lb/>ala
+            escuela y ella queria que yo tambien fuera <lb/>con ella pero yo no tardo en salirme de
+            la escuela en esa</p>
+          <pb/>
+          <p>que boy y me meto en la que me corrieron <lb/>mira ahorita no me echo la pinta pero mas
+            de lante quien <lb/>sabe mira no me gusta esa porque ahy muchos negro <lb/>y son bien
+            malos mira a mi no me escribe Ismael porque <lb/>no tiene direción y no tampoco tengo su
+            direción<lb/> dile a Luis que el tuvo la culpa de la carta que le <lb/>mande el porque
+            no fue a bersi tenia carta bueno tu <lb/>Juanita como te gustaria que te <del/>ponga en
+            las cartas <lb/>Juana o Juanita yo beo que me mandas en las cartas <lb/>no mas asi Juana
+            que nombre te gusta para que <lb/>te ponga en las cartas. de las cartas me <lb/>llegaron
+            Igual la tuya y la de Carmen Igual.<lb/> mira yo toda via no ago pruebas y toda via
+            nose<lb/> con que boy pando misa yo el otro dia compre una <lb/>maquina de aser cigarros
+            y los cigarros que yo<lb/> ago sellaman (Laredo) los cigarros bueno yatermino
+            <lb/>resiban saludos saludame a tu mamá y todos y <lb/>para ti Resibe un abraso de mi
+            parte se despide<lb/> tu novio que no te olvida que berte deseo mejor <lb/>que
+            escribirte contestame pronto</p>
+
+          <!-- La despedida: -->
+          <closer>
+            <signed corresp="GFS">tu novio que no te olvida Gabriel Flores S <lb/>te acuerda de
+              esto<lb/>ay-ya-yai me muero Juanita<lb/>espero la contestación</signed>
+            <dateline><!-- si hay --></dateline>
+          </closer>
+        </div>
+      </body>
+    </text>
+  </TEI>
+
+  <TEI xml:id="carta_3">
+    <teiHeader>
+      <!-- header para la tercera carta-->
+      <fileDesc>
+        <titleStmt>
+          <title>Carta 3</title>
+          <author corresp="MEF">Maria E. Flores</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><placeName>Chicago, Illinois, Estados Unidos</placeName><date>1 Febrero 1971</date></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p/>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+
+    <text>
+      <body>
+        <!-- Contenido de la tercera carta -->
+        <!-- SAT: es mejor una sección para el sobre y otra para el texto -->
+        <div type="envelope">
+          <pb n="9" facs="img/03ENV1.jpg"/>
+          <pb n="10" facs="img/03ENV2.jpg"/>
+          <div type="recto">
+            <p>Maria E. Flores S.<lb/>2509 So. Hamlin Ave <lb/>Chicago Illinois<lb/> 60623</p>
+          </div>
+          <div type="verso">
+            <p>Srita: <lb/>Juanita Guzmán R. <lb/>a lista de Correo.<lb/>Puente Grande Jal.
+              <lb/>-Mexico-</p>
+          </div>
+        </div>
+
+        <div type="texto">
+          <!-- Indica también los cambios de página; sitúa todas las imágenes en una carpeta "img", 
+            por ejemplo, y señala la url precisa para que las podamos conectar con la transcripción -->
+          <pb n="11" facs="img/03LET1.jpg"/>
+          <pb n="12" facs="img/03LET2.jpg"/>
+          <opener>
+            <dateline>
+              <date when="1971-02-01">1 de Febrero de 1971</date>
+              <name type="place">Chicago, Illinois</name>
+            </dateline>
+            <salute>Srita <lb/><name corresp="JGR"> Juanita Guzmán Ramos</name>,</salute>
+          </opener>
+
+          <p>Estimada amiga con el gusto de siempre doy contestación a tu carta donde me dices que
+            están bien, nosotros asta ahorita bien gracias a Dios.</p>
+          <p>Juanita: <lb/>de lo que me dices que el novio <lb/>de Chuy es Francisco y que tu crees
+            que<lb/> tambien es Alfredo, cual Alfredo? lo <lb/> conosco o no? y me dices que Chuy
+            <lb/>se quiere ir de monja, pues lo dudo<lb/> porque ua bes que es muy coqueta,<lb/> o
+            al no. ser que si quien sabe.<lb/> mira y de la fotografia pues mandame-<lb/>la tan
+            luego ballas por ella okey.</p>
+          <p>yo aqui te mando la mia, para que <lb/>asustes a los ratones.</p>
+          <p>y de lo que me dices de las <lb/>pruebas pues yo ya las ise y pase <lb/>en todas, y
+            ojala y pases en tus <lb/>pruebas, te lo deceo de todo corazón. <lb/>y de lo que me
+            dices de Joel que lo <lb/>biste con Arturo pues que bueno y dime <lb/>si lo biste en la
+            Quermes, y dime si <lb/>te divertiste?</p>
+          <p>y me dices que ban a lebantar el</p>
+          <pb/>
+          <p>El niño dios pues que bueno y <lb/>espero se diviertan todos; dime <lb/>si quiebraron
+            Pinatas o no? <lb/>y de Luis mi primo pues si <lb/>me contesta. Pero de Celia ni
+            <lb/>palabra e oido Ramona como tu <lb/>as de saber, pues ella si me <lb/>escribe, pero
+            celia nada.</p>
+          <p>y dime si tienes retratos de Carlos <lb/>Piñar?</p>
+          <p>Fijate que compre 2 novelas de Carlos<lb/> Pinar una es "El Milagro de la Fe"
+            <lb/>donde el la ase de Padre y la otra <lb/>"Noche Sensual" donde el la ase de
+            <lb/>interesado, pero las dos estan bonitas. <lb/>Quisas ya las allas leido.</p>
+          <p>y Fijate que fin al cine y bi 2 peliculas <lb/>bien bonitas la primera fue con
+              <del>Alf</del> Alberto <lb/>Vazquez y Ana Martin se llamo "Faltas <lb/>a la Moral"
+            bien linda y la otra fue <lb/>con Guillermo Murray y Maricruz Olívies <lb/>y Blanca
+            Sanchez, y otros artistas unas <lb/>nomas que no me acuerdo, bueno pues es se llamo "a
+            entrado una Mujer"<lb/> las dos estubieron muy bonitas.<lb/>
+            <del>Tu</del> y Tu cuentame todo lo que ten-<lb/>gas de nuevo. Perdona la letra, y</p>
+          <div type="marginLeft">
+            <p>contestame pronto, un beso y 1 abrazo a Everardo de mi <lb/>parte y resiban saludos
+              de mi familia, para todos ustedes en <lb/>general.</p>
+          </div>
+
+          <!-- La despedida: -->
+          <closer>
+            <signed corresp="MEF">tu amiga Maria Flores</signed>
+            <dateline><!-- si hay --></dateline>
+          </closer>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="carta_4">
+    <teiHeader>
+      <!-- header para la cuarta carta-->
+      <fileDesc>
+        <titleStmt>
+          <title>Carta 4</title>
+          <author corresp="GFS">Gabriel Flores Serrano</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><placeName>Chicago, Illinois, Estados Unidos</placeName><date>20 Febrero
+            1971</date></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p/>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+
+    <text>
+      <body>
+        <!-- Contenido de la cuarta carta -->
+        <!-- SAT: es mejor una sección para el sobre y otra para el texto -->
+        <div type="envelope">
+          <pb n="13" facs="img/04ENV1.jpg"/>
+          <pb n="14" facs="img/04ENV2.jpg"/>
+          <div type="recto">
+            <p>G.F.S <lb/>2509 So. Hamlin ave. <lb/>Chicago Illinois <lb/> 60623.</p>
+          </div>
+          <div type="verso">
+            <p>Srita. Juanita Guzman R. <lb/>a Lista de Correo. <lb/>Puente Grande Jal. <lb/>Mexico.
+            </p>
+          </div>
+        </div>
+
+        <div type="texto">
+          <!-- Indica también los cambios de página; sitúa todas las imágenes en una carpeta "img", 
+            por ejemplo, y señala la url precisa para que las podamos conectar con la transcripción -->
+          <pb n="15" facs="img/04LET1.jpg"/>
+          <pb n="16" facs="img/04LET2.jpg"/>
+          <opener>
+            <dateline>
+              <date when="1970-02-20">Febrero 20, 1971</date>
+              <name type="place">Chicago, Illinois</name>
+            </dateline>
+            <salute>Srita <name corresp="JGR">Juanita Guzman</name>,</salute>
+          </opener>
+
+          <p>Estimada y querida novia con gusto doy contestación <lb/>a tu carta donde me dices que
+            estan bien nosotros <lb/> hasta ahorita bien gracias adois.</p>
+          <p>Juanita:</p>
+          <p>de lo que me dices que cual es el numero del <lb/> telefono de mi Casa el numero es
+            762-3771 este es<lb/> el de mi casa y de lo que me dices que yo soy el <lb/>que me
+            edilatado fijate yono soy el <lb/>que me dilato en contestarles ustedes son como quieres
+            <lb/>que les conteste si ami no me an llegado como <lb/> quieres que les conteste nimodo
+            que te aga otra <lb/>carta ante de que me llegue la tuya asi te la<lb/>ise en diciembre
+            y asi me llegaban pronto las<lb/>cartas pero tediste cuenta que andaban dos<lb/>cartas
+            en camino y cuando te Escribi su piste<lb/>que andaban dos cartas y te esperaste y
+            Reciviste<lb/>los dos y nomas me contestaste una carta poreso<lb/> tedigo que como te
+            boy acontestar cuando toda <lb/>via no me llegan las cartas y de lo que me <lb/> dices
+            que apoco me le bante alas 4:00 de la mañana<lb/>mira no me entendiste yo el savado 13
+            me acoste <lb/>alas 6:00 de la mañana y a esa <del/>hora te Escribi la <lb/>carta y me
+            le bante alas 11:00 de la mañana y este<lb/>savado me acoste alas 4:30 de la mañana
+            y<lb/>me le bante alas 10:00 de la mañana</p>
+          <pb/>
+          <p>y de lo que me dices que le diga a nena<lb/>que te conteste yo le dije te contestara
+            que<lb/>sino de contestaba despues no dijera tu<lb/>te dila tavas y lo que se ya te
+            contesto<lb/>Juanita manda me desir si Reciviste una <lb/>tarjeta que te mande por tu
+            cumple años<lb/>y alli te mande mi fotografia y un Regalito<lb/> te lo mande el dia 19
+            de febrero a bersi teyego<lb/>pronto platicame como pasaste tu cumple años<lb/>si lo
+            pasaste triste o Feliz y lo que me dices <lb/> que con que boy pasando en la Escuela el
+            otro<lb/>dia me dieron la calificacion y bi que boy<lb/>pasando con 8 y 9 fijate ahorita
+            enpeso el dia<lb/>16 de Febrero se puso caliente y lloviendo en bes <lb/> de que
+            estuviera Frio y con nieve <lb/>serre ditio toda te deseo Feliz Cumple años<lb/>Juanita
+            y de lo que me dices que cuanto duro <lb/>en aser una carta en esta dure 45 minutos
+            <lb/>y tu cuanto duras en aser una carta<lb/> bueno lla termino Recive saludos de todos
+            y <lb/>para todos y tu Recibe de tu novio un<lb/>abraso y un beso de tu novio que no
+            <lb/>te olvida adios contestame pronto <foreign xml:lang="English"><choice>
+                <orig>"jani"</orig>
+                <reg>"honey"</reg>
+              </choice></foreign></p>
+
+          <!-- La despedida: -->
+          <closer>
+            <signed corresp="GFS">G.F.S.</signed>
+            <dateline><!-- si hay --></dateline>
+          </closer>
+        </div>
+      </body>
+    </text>
+  </TEI>
+
+  <TEI xml:id="carta_5">
+    <teiHeader>
+      <!-- header para la quinta carta-->
+      <fileDesc>
+        <titleStmt>
+          <title>Carta 5</title>
+          <author corresp="MEF">Maria E. Flores</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><placeName>Chicago, Illinois, Estados Unidos</placeName><date>9 Mayo 1971</date></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p/>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+
+    <text>
+      <body>
+        <!-- Contenido de la quinta carta -->
+        <!-- SAT: es mejor una sección para el sobre y otra para el texto -->
+        <div type="envelope">
+          <pb n="17" facs="img/05ENV1.jpg"/>
+          <pb n="18" facs="img/05ENV2.jpg"/>
+          <div type="recto">
+            <p>Maria Flores <lb/>2509 So. Hamlin Ave <lb/>Chicago, Illinois <lb/> 60623.</p>
+          </div>
+          <div type="verso">
+            <p>Srita <lb/> Juanita Guzman R. <lb/>A lista de Correo. <lb/>Puente Grande Jalisco.
+              <lb/>-Mexico- </p>
+          </div>
+        </div>
+
+        <div type="texto">
+          <!-- Indica también los cambios de página; sitúa todas las imágenes en una carpeta "img", 
+            por ejemplo, y señala la url precisa para que las podamos conectar con la transcripción -->
+          <pb n="19" facs="img/05LET1.jpg"/>
+          <pb n="20" facs="img/05LET2.jpg"/>
+          <opener>
+            <dateline>
+              <date when="1970-05-09">9, de Mayo de 1971</date>
+              <name type="place">Chicago, Illinois</name>
+            </dateline>
+            <salute>Srita <lb/><name corresp="JGR">Juanita Guzman Ramos</name>,</salute>
+          </opener>
+
+          <p>Estimada amiga con mucho gusto doy con-<lb/>testacion a tu carta donde me dices
+            que<lb/>están bien nosotros asta ahorita bien gracias<lb/>a Dios.</p>
+          <p>Juanita: de lo que me dices que tu<lb/> tambien estas guardando de no ir al
+            cine<lb/>pues me alegro y a la misma bes me das<lb/>1 conosuelo porque casi nadie lo
+            guarda<lb/>verdad, pero al ver que Dios iso tanto<lb/>sacrificio por nosotros pues el
+            que esta-<lb/>mos asiendo no <del/> viene siendo nada<lb/>acomparacio de todo lo que
+            sufrio Dios..<lb/>Te deceo buena suerte en tus proximas<lb/>pruebas, que yo en las mias
+            estoy <lb/> asiendo mas o menos, pero tengo que<lb/> estudiar bastande, y <del>le</del>
+            ni te imaginas<lb/>toda la tarea que me dejan. pero ya<lb/>bes yo me doy prisa y termino
+            como<lb/> a las 10:00 de la noche empieso a la <lb/>6:00 P.M. me abiento 4 horas. y ya
+            asta <lb/>ahorita no e reprobado mis prueba, y <lb/>espoero que en la <del>pr</del>
+            proxima que me <lb/>den tampoco la repruebeporque segun<lb/>nos dijo el maestro, que si
+            reprovamos</p>
+          <pb/>
+          <p>esa prueba no pasamos a si es que me<lb/>tengo que apuran a estudiar verdad.<lb/>y de
+            lo que me dices de Chuy Robles<lb/>pues no creo, que el Gato llore por <lb/> ella, pero
+            ya bes ella se la da de <lb/>muy importante, y se cree que es la <lb/>mas
+            bonita<del/>pero se equivoca, si <lb/>es bonita ni quien lo dude, pero se cree<lb/>mas
+            de la cuenta Verdad? y ojala le <lb/>baya bien con su Armando, y a ber<lb/>cuato dura de
+            novia de el <del/> verdad:<lb/>Bueno de esto no le digas nada a ella <lb/>ni a nadie que
+            quede entre tu y yo<lb/>okey en ti confio yo te cuento, todo,<lb/>y espero que no <del/>
+            me defraudes, que <lb/>tu puedes contar en mi yo a nadie<lb/>le digo nada todo lo que me
+            dices<lb/>queda en mi. Aqui te mando un <lb/>juego a ber si te gusta, y tan bien<lb/>un
+            papelito a Everardo.</p>
+          <p>Contestame pronto y perdona la<lb/> letra, Saludos a todos ustedes<lb/>en general
+            departe de todos nosotros</p>
+          <div type="marginLeft">
+            <p>1) eso que me dices, que te bas a Guadalajara con tu tia,<lb/>te bas a quedar con
+              ella por un tiempo o que, para<lb/> saber si te puedo escribir aqui al Puente.</p>
+          </div>
+          <!-- La despedida: -->
+          <closer>
+            <signed corresp="MEF">Tu amiga que berlos decea mejor <lb/>que escribirte Maria
+              Flores</signed>
+            <dateline><!-- si hay --></dateline>
+          </closer>
+        </div>
+      </body>
+    </text>
+  </TEI>
+
+
+  <!-- más TEI elements aquí -->
+
+
+
+</teiCorpus>
