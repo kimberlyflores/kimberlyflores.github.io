@@ -107,14 +107,12 @@
 
                                 <h3>Metadatos</h3>
                                 <ul>
-                                    <li>From whom: <xsl:value-of
+                                    <li>Correspondiente: <xsl:value-of
                                             select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"
                                         /></li>
-                                    <li>From where: <xsl:value-of
+                                    <li>Lugar: <xsl:value-of
                                             select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:p/tei:placeName"
                                         /></li>
-                                    <li>To whom:</li>
-                                    <li>To where:</li>
                                 </ul>
                             </div>
                         </div>
